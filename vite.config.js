@@ -14,6 +14,7 @@ export default defineConfig({
                 accueil: resolve(racine, 'index.html'),
                 projets: resolve(racine, 'projet.html'),
                 contact: resolve(racine, 'contact.html'),
+                veille: resolve(racine, 'veille.html'),
             },
         },
     },
