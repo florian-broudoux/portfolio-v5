@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Florian - Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./src/style.css" />
+    </head>
+    <body class="bg-fond text-encre font-sans">
+        <a
+            href="#contenu"
+            class="sr-only focus:not-sr-only focus:absolute focus:top-6 focus:left-60 focus:z-20 focus:px-4 focus:py-2 focus:rounded-carte focus:bg-fond focus:text-encre focus:outline-2 focus:outline-encre"
+        >
+            Aller au contenu
+        </a>
+        <header class="bg-fond border-b border-encre-douce">
+            <div class="flex justify-between items-center p-4 max-w-6xl mx-auto">
+                <a href="#index" class="text-xl">🚀 Florian Broudoux</a>
+
+                <details class="group md:hidden">
+                    <summary
+                        class="list-none [&::-webkit-details-marker]:hidden flex items-center gap-2 min-h-11 px-4 rounded-carte border border-encre text-encre font-semibold cursor-pointer"
+                    >
+                        <span aria-hidden="true" class="group-open:hidden">☰</span>
+                        <span aria-hidden="true" class="hidden group-open:inline">✕</span>
+                        Menu
+                    </summary>
+                    <nav
+                        aria-label="Navigation principale"
+                        class="absolute inset-x-0 z-10 bg-fond border-b border-encre shadow-md"
+                    >
+                        <ul class="flex flex-col px-4 py-2">
+                            <li>
+                                <a
+                                    href="index.html"
+                                    aria-current="page"
+                                    class="block py-3 font-semibold text-primaire"
+                                    >Accueil</a
+                                >
+                            </li>
+                            <li>
+                                <a href="projet.html" class="block py-3 font-medium">Projets</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="block py-3 font-medium">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </details>
+
+                <nav aria-label="Navigation principale" class="hidden md:flex gap-6">
+                    <a
+                        href="index.html"
+                        aria-current="page"
+                        class="text-lg underline underline-offset-5 py-3"
+                        >Accueil</a
+                    >
+                    <a href="projet.html" class="text-lg py-3">Projets</a>
+                    <a href="contact.html" class="text-lg py-3">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="mx-auto max-w-6xl p-4">
+            <h1 class="font-titre text-3xl">Ma veille technologique</h1>
+            <p class="mt-4 leading-relaxed">
+                Chaque semaine, je suis l'actualité des outils que j'utilise : nouvelles versions,
+                bonnes pratiques et failles de sécurité.
+            </p>
+
+            <section class="mt-8">
+                <h2 class="font-titre text-2xl">Mes sources</h2>
+                <ul class="mt-4 list-disc space-y-2 pl-6">
+                    <li>MDN Web Docs (français) : la référence pour HTML, CSS et JavaScript</li>
+                    <li>Le blog de Vite (anglais) : les nouvelles versions de Vite</li>
+                    <li>Le blog de Tailwind CSS (anglais) : les nouveautés du framework</li>
+                    <li>Le CERT-FR (français) : les alertes de sécurité</li>
+                    <li>Une newsletter francophone sur le développement web</li>
+                </ul>
+                <p class="mt-4">Je les suis avec un lecteur de flux RSS.</p>
+            </section>
+
+            <section class="mt-8">
+                <h2 class="font-titre text-2xl">Fiche de veille : Vite 8</h2>
+                <dl class="mt-4">
+                    <div>
+                        <h3 class="font-bold">Ce qui change</h3>
+                        <p>
+                            Vite 8 construit les sites avec Rolldown : l'option s'appelle désormais
+                            rolldownOptions.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold mt-2">Ce que cela change pour moi</h3>
+                        <p>
+                            Les tutoriels qui parlent de rollupOptions sont plus anciens : je
+                            vérifie la version de chaque ressource.
+                        </p>
+                    </div>
+                </dl>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="mt-6 border-t border-encre-douce">
+            <div
+                class="max-w-6xl mx-auto text-center flex flex-col md:flex-row-reverse md:items-center md:text-left px-4 py-4 md:justify-between"
+            >
+                <nav class="flex flex-col gap-2 md:flex-row md:gap-4">
+                    <a href="index.html" class="py-3">Accueil</a>
+                    <a href="projet.html" class="py-3">Projets</a>
+                    <a href="contact.html" class="py-3">Contact</a>
+                </nav>
+                <div>
+                    <p class="mt-6">© 2026 Florian Broudoux</p>
+                    <p class="mt-1 italic">Développeur Web en formation</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
