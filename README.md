@@ -17,6 +17,10 @@ Il faut Node.js 24 (LTS). Dans le dossier du projet :
 - `npm run dev` : lancer le serveur de développement (http://localhost:5173)
 - `npm run build` : construire le site dans le dossier `dist/`
 
+## En ligne
+
+Le portfolio est publié sur GitHub Pages : https://florian-broudoux.github.io/portfolio-v5/
+
 ## Auteur
 
 Florian Broudoux, en formation Développeur web et web mobile.
