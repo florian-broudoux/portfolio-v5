@@ -9,6 +9,7 @@
 | Blog de Node.js         | anglais  | officielle, sécurité | les versions LTS et les correctifs de sécurité       |
 | Blog de Vite            | anglais  | officielle           | les versions de mon outil de construction            |
 | JavaScript Weekly       | anglais  | lettre d'information | une sélection pour préparer la suite de la formation |
+| Blog de Tailwind CSS    | anglais  | officielle           | nouvelles propritétés Tailwind                       |
 
 ## 2. Mon outil de collecte
 
