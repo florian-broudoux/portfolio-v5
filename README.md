@@ -7,6 +7,7 @@ Mon portfolio de développeur web en formation : présentation, projets et conta
 - HTML et Tailwind CSS 4
 - Vite 8
 - Prettier et ESLint
+- Git et GitHub
 
 ## Installation et lancement
 
