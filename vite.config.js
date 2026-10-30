@@ -8,6 +8,7 @@ const racine = dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
     base: './',
     plugins: [tailwindcss()],
+    server: { host: true, watch: { usePolling: process.env.DANS_DOCKER === 'oui' } },
     build: {
         rolldownOptions: {
             input: {
